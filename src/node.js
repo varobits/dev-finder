@@ -1,3 +1,4 @@
+const userPreviewContent = document.querySelector("#userPreview");
 
 const userPreviewUser = document.querySelector("#userPreviewName");
 const userPreviewDate = document.querySelector("#userPreviewDate");

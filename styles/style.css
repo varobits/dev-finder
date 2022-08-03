@@ -147,6 +147,10 @@ body {
     padding: 5px;
 }
 
+.inactive{
+    display: none;
+}
+
 footer{
     margin: 0 auto;
     display: flex;
