@@ -14,6 +14,8 @@ html {
 body {
     background-color: #141c2f;
     color: white;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
 }
 
 .header-container {
@@ -21,9 +23,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
 
 }
@@ -46,13 +49,19 @@ body {
 #inputForm {
     width: 70%;
     display: inline-block;
+    background:none; 
+    border:none; 
+    outline:0;
     
 }
 
 
 #searchBtn{
     width: 20%;
-    display: inline-block;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    left: 20px;
 }
 
 .userPreview-container{
@@ -66,22 +75,33 @@ body {
     width: 100%;
     background-color: #1f2a48;
     border-radius: 15px;
-    width: 40%;
+    width: 50%;
     flex-wrap:wrap;
 
 }
 
 .userPreview-user{
     width: 50%;
+    padding: 20px;
+    height: 80px;
+}
+
+.userPreview-user p{
+    display: block;
+    padding-bottom: 10px;
 }
 
 .userPreview-bio{
     width: 100%;
+    padding: 20px;
 }
 
 .userPreview-date{
     width: 50%;
     text-align: right;
+    padding: 20px;
+    vertical-align: top;
+    height: 80px;
 }
 
 .userPreview-projects{
@@ -91,6 +111,18 @@ body {
     border-radius: 15px;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    height: 90px;
+}
+
+.userPreview-info{
+    margin: 30px;
+    text-align: center;
+}
+
+.userPreview-info span{
+    display: inline-block;
+    padding-bottom: 15px;
 }
 
 .userPreview-social{
@@ -107,9 +139,18 @@ body {
     text-align: center;
 }
 
+.userPreview-social {
+    margin: 20px;
+}
+
+.userPreview-link{
+    padding: 5px;
+}
+
 footer{
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }

@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <header id="header" class="header-container">
-      <h1 class="header-title">DevFinder</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
 
-      <form id="searchForm" class="header-searchForm">
-        <input id="inputForm" type="text" placeholder="Usuario GitHub" />
-        <button id="searchBtn" type="button">Search</button>
-      </form>
-    </header>
+<body>
+  <header id="header" class="header-container">
+    <h1 class="header-title">DevFinder</h1>
 
-    <section id="userPreview" class="userPreview-container">
-      <div class="userPreview-user">
-        <p>The Octocat</p>
-        <p>@octocat</p>
-      </div>
-      <div class="userPreview-date">
-        <p>10 dec 1986</p>
-      </div>
-      <div class="userPreview-bio">
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </div>
-      <div class="userPreview-projects">
-        <div class="userPreview-repos">
-          <span>Repos</span>
-          <p>8</p>
-        </div>
-        <div class="userPreview-followes">
-          <span>Followers</span>
-          <p>8</p>
-        </div>
-        <div class="userPreview-following">
-          <span>Following</span>
-          <p>8</p>
-        </div>
-      </div>
-      <div class="userPreview-social">
-        <div class="userPreview-link">
-          <span>Madrid</span>
-        </div>
-        <div class="userPreview-link">
-          <span>varobits.es</span>
-        </div>
-        <div class="userPreview-link">
-          <span>varobits</span>
-        </div>
-        <div class="userPreview-link">
-          <span>varobits</span>
-        </div>
-      </div>
-    </section>
+    <form id="searchForm" class="header-searchForm">
+      <input id="inputForm" type="text" placeholder="Usuario GitHub" />
+      <button id="searchBtn" type="button">Search</button>
+    </form>
+  </header>
 
-    <footer>
-       <p>with love</p> 
-    </footer>
-    <script src="./src/main.js"></script>
-  </body>
+  <section id="userPreview" class="userPreview-container">
+    <div class="userPreview-user">
+      <p>The Octocat</p>
+      <p>@octocat</p>
+    </div>
+    <div class="userPreview-date">
+      <p>10 dec 1986</p>
+    </div>
+    <div class="userPreview-bio">
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="userPreview-projects">
+      <div class="userPreview-info">
+        <span>Repos</span>
+        <p>8</p>
+      </div>
+      <div class="userPreview-info">
+        <span>Followers</span>
+        <p>8</p>
+      </div>
+      <div class="userPreview-info">
+        <span>Following</span>
+        <p>8</p>
+      </div>
+    </div>
+    <div class="userPreview-social">
+      <div class="userPreview-link">
+        <span>Madrid</span>
+      </div>
+      <div class="userPreview-link">
+        <span>varobits.es</span>
+      </div>
+      <div class="userPreview-link">
+        <span>varobits</span>
+      </div>
+      <div class="userPreview-link">
+        <span>varobits</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>with love by varobits</p>
+  </footer>
+  <script src="./src/main.js"></script>
+</body>
+
 </html>
