@@ -5,6 +5,19 @@ searchFormBtn.addEventListener('click', getUser)
 const URL = "https://api.github.com/users/";
 
 async function getUser() {
+  
+  userPreviewUser.innerHTML="";
+  userPreviewDate.innerHTML=""
+  userPreviewBio.innerHTML="";
+  userPreviewRepos.innerHTML="";
+  userPreviewFollowers.innerHTML="";
+  userPreviewFollowing.innerHTML="";
+  userPreviewSocial1.innerHTML="";
+  userPreviewSocial2.innerHTML="";
+  userPreviewSocial3.innerHTML="";
+  userPreviewSocial4.innerHTML="";
+
+  
   const value = document.querySelector("#inputForm").value;
 
   const res = await fetch(URL + value);
