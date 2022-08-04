@@ -79,6 +79,6 @@ async function getUser() {
 
   const github = document.createElement("span");
   userPreviewSocial4.appendChild(github);
-  github.innerHTML = "Twitter: "+ data.login;
+  github.innerHTML = "Github: "+ data.login;
 
 }
