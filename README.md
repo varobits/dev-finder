@@ -1,1 +1,3 @@
-# github-user-search-app
+# DevFinder
+
+Buscador de perfiles en GitHub
